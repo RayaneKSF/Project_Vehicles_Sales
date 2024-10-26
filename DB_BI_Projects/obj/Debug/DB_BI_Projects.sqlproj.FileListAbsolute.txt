@@ -1,0 +1,10 @@
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\bin\Debug\DB_BI_Projects.dacpac
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\DB_BI_Projects.sqlproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\Model.xml
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\refactor.xml
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\postdeploy.sql
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\predeploy.sql
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\DB_BI_Projects.dll
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\DB_BI_Projects.pdb
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\bin\Debug\DB_BI_Projects.dll
+C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\bin\Debug\DB_BI_Projects.pdb

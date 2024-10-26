@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="160" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="DB_BI_Projects.dll" />
+			<Metadata Name="FileName" Value="C:\USERS\ADMINISTRADOR\SOURCE\REPOS\PROJECT_VEHICLES_SALES\DB_BI_PROJECTS\OBJ\DEBUG\DB_BI_PROJECTS.DLL" />
+			<Metadata Name="AssemblyName" Value="DB_BI_Projects" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\obj\Debug\DB_BI_Projects.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="Latin1_General_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Car_Prices]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[year]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[smallint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[make]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[model]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[trim]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[body]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[transmission]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[vin]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[state]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[condition]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[tinyint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[odometer]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[color]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[interior]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[seller]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[mmr]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[sellingprice]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Car_Prices].[saledate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ImportCarPricesIncremental]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Tabela temporária para armazenar dados importados
+    CREATE TABLE #TempCarPrices (
+        year SMALLINT NOT NULL,
+        make NVARCHAR(50) NULL,
+        model NVARCHAR(50) NULL,
+        trim NVARCHAR(50) NULL,
+        body NVARCHAR(50) NULL,
+        transmission NVARCHAR(50) NULL,
+        vin NVARCHAR(50) NOT NULL, -- Chave primária ou identificador único
+        state NVARCHAR(50) NOT NULL,
+        condition TINYINT NULL,
+        odometer INT NULL,
+        color NVARCHAR(50) NULL,
+        interior NVARCHAR(50) NULL,
+        seller NVARCHAR(100) NOT NULL,
+        mmr INT NULL,
+        sellingprice INT NULL,
+        saledate NVARCHAR(50) NULL
+    );
+
+    -- Preparar o comando para BULK INSERT
+    DECLARE @Sql NVARCHAR(MAX);
+    SET @Sql = '
+    BULK INSERT #TempCarPrices
+    FROM ''' + @FilePath + '''
+    WITH (
+        FIELDTERMINATOR = '','',  -- Delimitador de campo
+        ROWTERMINATOR = ''\n'',   -- Delimitador de linha
+        FIRSTROW = 2,           -- Ignorar o cabeçalho (opcional)
+        TABLOCK
+    );';
+
+    -- Executar o comando dinâmico
+    EXEC sp_executesql @Sql;
+
+    -- Inserir os novos registros na tabela de destino
+    INSERT INTO dbo.Car_Prices (
+        year,
+        make,
+        model,
+        trim,
+        body,
+        transmission,
+        vin,
+        state,
+        condition,
+        odometer,
+        color,
+        interior,
+        seller,
+        mmr,
+        sellingprice,
+        saledate
+    )
+    SELECT 
+        t.year,
+        t.make,
+        t.model,
+        t.trim,
+        t.body,
+        t.transmission,
+        t.vin,
+        t.state,
+        t.condition,
+        t.odometer,
+        t.color,
+        t.interior,
+        t.seller,
+        t.mmr,
+        t.sellingprice,
+        t.saledate
+    FROM #TempCarPrices t
+    LEFT JOIN dbo.Car_Prices d
+    ON t.vin = d.vin
+    WHERE d.vin IS NULL; -- Insere apenas registros que não existem na tabela de destino
+
+    -- Limpar tabela temporária
+    DROP TABLE #TempCarPrices;
+
+    SET NOCOUNT OFF;
+END;]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[@FilePath]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[Car_Prices]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[year]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[make]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[model]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[trim]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[body]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[transmission]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[vin]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[state]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[condition]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[odometer]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[color]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[interior]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[seller]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[mmr]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[sellingprice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[saledate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[vin]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[vin]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[year]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[make]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[model]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[trim]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[body]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[transmission]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[state]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[condition]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[odometer]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[color]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[interior]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[seller]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[mmr]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[sellingprice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[saledate]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DynamicObjects">
+				<Entry>
+					<Element Type="SqlDynamicColumnSource" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices]">
+						<Relationship Name="Columns">
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[year]">
+									<Property Name="IsNullable" Value="False" />
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[smallint]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[make]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[model]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[trim]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[body]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[transmission]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[vin]">
+									<Property Name="IsNullable" Value="False" />
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[state]">
+									<Property Name="IsNullable" Value="False" />
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[condition]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[tinyint]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[odometer]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[int]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[color]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[interior]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[seller]">
+									<Property Name="IsNullable" Value="False" />
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="100" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[mmr]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[int]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[sellingprice]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[int]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[ImportCarPricesIncremental].[#TempCarPrices].[saledate]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Length" Value="50" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ImportCarPricesIncremental].[@FilePath]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="255" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="2253" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE dbo.ImportCarPricesIncremental&#xD;&#xA;    @FilePath NVARCHAR(255) -- Caminho do arquivo CSV a ser importado&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlView" Name="[dbo].[view_dim_seller]">
+			<Property Name="QueryScript">
+				<Value><![CDATA[
+	SELECT DISTINCT [seller]
+		,HASHBYTES('MD5', seller) AS [ID_seller]
+FROM [dbo].[Car_Prices]]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_seller].[seller]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[seller]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_seller].[ID_seller]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="QueryDependencies">
+				<Entry>
+					<References Name="[dbo].[Car_Prices]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[seller]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="6" />
+				<Property Name="Length" Value="140" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;CREATE VIEW [dbo].[view_dim_seller] AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlView" Name="[dbo].[view_dim_vehicle_features]">
+			<Property Name="QueryScript">
+				<Value><![CDATA[ 
+	SELECT DISTINCT [interior]
+		   ,[color]
+		   ,[transmission]
+		   ,[body]
+		   ,[trim]
+		   ,[model]
+		   ,[make]
+		   ,[year]
+		   ,HASHBYTES('SHA1',
+			CONCAT([interior]
+					,[color]
+					,[transmission]
+					,[body]
+					,[trim]
+					,[model]
+					,[make]
+					,CAST([year] AS NVARCHAR(4)))) AS ID_features
+
+	FROM [dbo].[Car_Prices]]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[interior]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[interior]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[color]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[color]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[transmission]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[transmission]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[body]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[body]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[trim]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[trim]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[model]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[model]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[make]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[make]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[year]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[year]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_dim_vehicle_features].[ID_features]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="QueryDependencies">
+				<Entry>
+					<References Name="[dbo].[Car_Prices]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[interior]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[color]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[transmission]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[body]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[trim]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[model]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[make]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[year]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="405" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE VIEW dbo.[view_dim_vehicle_features] AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlView" Name="[dbo].[view_f_vehicle_salles]">
+			<Property Name="QueryScript">
+				<Value><![CDATA[
+	SELECT TRY_CONVERT(DATE, SUBSTRING(saledate,4,12)) AS [saledate]
+		  ,[sellingprice]
+		  ,[mmr]
+		  ,[odometer]
+		  ,[condition]
+		  ,[vin]
+		  ,[state]
+		  ,HASHBYTES('MD5', seller) AS [id_seller]
+		  ,HASHBYTES('SHA1',
+			CONCAT([interior]
+					,[color]
+					,[transmission]
+					,[body]
+					,[trim]
+					,[model]
+					,[make]
+					,CAST([year] AS NVARCHAR(4)))) AS [id_features]
+	FROM [dbo].[Car_Prices]
+	WHERE LEN(state) <= 2]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[saledate]" />
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[sellingprice]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[sellingprice]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[mmr]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[mmr]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[odometer]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[odometer]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[condition]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[condition]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[vin]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[vin]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[state]">
+						<Relationship Name="ExpressionDependencies">
+							<Entry>
+								<References Name="[dbo].[Car_Prices].[state]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[id_seller]" />
+				</Entry>
+				<Entry>
+					<Element Type="SqlComputedColumn" Name="[dbo].[view_f_vehicle_salles].[id_features]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="QueryDependencies">
+				<Entry>
+					<References Name="[dbo].[Car_Prices]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[saledate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[sellingprice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[mmr]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[odometer]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[condition]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[vin]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[state]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[seller]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[interior]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[color]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[transmission]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[body]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[trim]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[model]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[make]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Car_Prices].[year]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="4" />
+				<Property Name="Length" Value="499" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;&#xD;&#xA;CREATE VIEW [dbo].[view_f_vehicle_salles] AS" />
+			</Annotation>
+		</Element>
+	</Model>
+</DataSchemaModel>

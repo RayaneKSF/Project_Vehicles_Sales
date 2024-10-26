@@ -1,0 +1,88 @@
+26/10/2024 16:37:56	Este log contém informações sobre a operação do esquema importado no projeto 'DB_BI_Projects' no computador 'LAPTOP-IICNV223' pelo usuário 'Administrador'.
+26/10/2024 16:37:56	A importação do esquema de banco de dados foi iniciada.
+26/10/2024 16:38:04	Coletando credenciais do banco de dados
+26/10/2024 16:38:04	Coletando opções de banco de dados
+26/10/2024 16:38:04	Reunindo a opção de configuração no escopo do banco de dados genérico
+26/10/2024 16:38:04	Coletando usuários
+26/10/2024 16:38:04	Coletando funções
+26/10/2024 16:38:04	Coletando funções de aplicativo
+26/10/2024 16:38:04	Coletando associações de função
+26/10/2024 16:38:04	Coletando grupos de arquivos
+26/10/2024 16:38:04	Coletando catálogos de texto completo
+26/10/2024 16:38:04	Coletando assemblies
+26/10/2024 16:38:04	Coletando certificados
+26/10/2024 16:38:04	Coletando chaves assimétricas
+26/10/2024 16:38:04	Coletando chaves simétricas
+26/10/2024 16:38:04	Coletando chaves simétricas criptografadas
+26/10/2024 16:38:04	Coletando esquemas
+26/10/2024 16:38:04	Coletando coleções de esquema XML
+26/10/2024 16:38:04	Coletando tipos de dados definidos pelo usuário
+26/10/2024 16:38:04	Coletando tipos definidos pelo usuário
+26/10/2024 16:38:04	Coletando tipos de tabela
+26/10/2024 16:38:04	Coletando chaves exclusivas para tipos de tabela
+26/10/2024 16:38:04	Coletando chaves primárias para tipos de tabela
+26/10/2024 16:38:04	Reunindo índices para tipos de tabela
+26/10/2024 16:38:04	Coletando restrições de verificação para tipos de tabela
+26/10/2024 16:38:04	Coletando restrições padrão para tipos de tabela
+26/10/2024 16:38:04	Coletando funções de partição
+26/10/2024 16:38:04	Coletando esquemas de partição
+26/10/2024 16:38:04	Coletando funções
+26/10/2024 16:38:04	Coletando funções criptografadas
+26/10/2024 16:38:04	Coletando agregações
+26/10/2024 16:38:04	Coletando procedimentos
+26/10/2024 16:38:04	Coletando procedimentos criptografados
+26/10/2024 16:38:04	Coletando tabelas
+26/10/2024 16:38:04	Coletando chaves primárias
+26/10/2024 16:38:04	Coletando restrições exclusivas
+26/10/2024 16:38:04	Coletando chaves estrangeiras
+26/10/2024 16:38:04	Coletando restrições padrão
+26/10/2024 16:38:04	Coletando restrições de verificação
+26/10/2024 16:38:04	Coletando exibições
+26/10/2024 16:38:04	Coletando exibições criptografadas
+26/10/2024 16:38:04	Coletando índices
+26/10/2024 16:38:04	Coletando estatísticas
+26/10/2024 16:38:04	Coletando listas de palavras irrelevantes de índice de texto completo
+26/10/2024 16:38:04	Coletando listas de propriedades de pesquisa
+26/10/2024 16:38:04	Coletando propriedades de pesquisa
+26/10/2024 16:38:04	Coletando índices de texto completo
+26/10/2024 16:38:04	Coletando índices de repositório de coluna
+26/10/2024 16:38:04	Coletando índices espaciais
+26/10/2024 16:38:04	Coletando índices XML
+26/10/2024 16:38:04	Reunindo índices XML Seletivos
+26/10/2024 16:38:04	Coletando gatilhos criptografados
+26/10/2024 16:38:04	Coletando gatilhos
+26/10/2024 16:38:04	Coletando gatilhos ddl criptografados e clr
+26/10/2024 16:38:04	Coletando gatilhos ddl
+26/10/2024 16:38:04	Criando restrições de borda
+26/10/2024 16:38:04	Coletando sinônimos
+26/10/2024 16:38:04	Coletando padrões
+26/10/2024 16:38:04	Coletando ligações uddt de restrições de dados
+26/10/2024 16:38:04	Coletando regras
+26/10/2024 16:38:04	Coletando ligações uddt de restrições de dados
+26/10/2024 16:38:04	Coletando tipos de mensagem
+26/10/2024 16:38:04	Coletando filas
+26/10/2024 16:38:04	Coletando contratos
+26/10/2024 16:38:04	Coletando serviços
+26/10/2024 16:38:04	Coletando notificações de eventos
+26/10/2024 16:38:04	Coletando ligações de serviço remoto
+26/10/2024 16:38:04	Coletando prioridades do agente
+26/10/2024 16:38:04	Coletando assinaturas
+26/10/2024 16:38:04	Coletando opções de compactação
+26/10/2024 16:38:04	Coletando tipos de sequência
+26/10/2024 16:38:04	Reunindo as políticas de segurança
+26/10/2024 16:38:04	Coletar chaves de criptografia de coluna
+26/10/2024 16:38:04	Coletando chaves mestre de coluna
+26/10/2024 16:38:04	Coletando fontes de dados externas
+26/10/2024 16:38:04	Coletando formatos de arquivo externo
+26/10/2024 16:38:04	Coletando tabelas externas
+26/10/2024 16:38:04	Coletando opções de compactação de índice XML
+26/10/2024 16:38:04	Coletando propriedades estendidas
+26/10/2024 16:38:05	Coletando assemblies
+26/10/2024 16:38:05	Coletando credenciais
+26/10/2024 16:38:05	Coletando logons
+26/10/2024 16:38:05	Coletando auditorias de servidor
+26/10/2024 16:38:05	Examinando projeto para elementos duplicados
+26/10/2024 16:38:05	Processamento de elementos duplicados concluído
+26/10/2024 16:38:06	Importação do banco de dados concluída.
+26/10/2024 16:38:06	Um resumo da importação foi salvo no seguinte local: C:\Users\Administrador\source\repos\Project_Vehicles_Sales\DB_BI_Projects\Importar Logs de Esquema\DB_BI_Projects_20241026033756.log.
+26/10/2024 16:38:06	Clique em Concluir para continuar...
